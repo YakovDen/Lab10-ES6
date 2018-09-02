@@ -1,0 +1,122 @@
+HTML  CSS  JS Result
+EDIT ON
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Play", sans-serif;
+}
+
+.lin-bg {
+  background-image: linear-gradient(to right, red 25%, yellow 25%, yellow 50%, lime 50%, lime 75%, #b432f4 75%);
+  padding-top: 5px;
+  display: inline-block;
+  margin: 60px auto 60px 100px;
+}
+
+table { 
+  background-color: #fff;
+  width: 600px; 
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+tr:hover td:last-child {
+  color: #fff;
+}
+
+fieldset {
+  background-image: linear-gradient(to right, red 25%, yellow 25%, yellow 50%, lime 50%, lime 75%, #b432f4 75%);
+  width: 400px;
+  box-shadow: 0 1px 1px  #036;
+  position: absolute;
+  top: 10px;
+  padding: 0;
+  padding-top: 5px;
+}
+
+fieldset h2 {
+  margin: 0;
+  padding: 15px 0 0;
+  text-align: center;
+  background-color: #fff;
+  color: #036;
+  position: relative;
+}
+
+#close {
+  position: absolute;
+  right: 10px;
+  top: -4px;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+form {
+  display: block;
+  background-color: #fff;
+  padding: 15px;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  margin-right: 10px;
+  text-align: right;  
+}
+
+input, textarea {
+  width: 220px;
+  padding: 5px;
+  border: 1px solid  #999;
+  vertical-align: middle;
+  box-shadow: 0 1px 1px  #ccc;
+}
+
+input[type=submit]{
+  background-image: linear-gradient(blue, white);
+  border-style: outset;
+}
+
+.hide{
+    display: none;
+}
+
+.btn{
+  background-image: linear-gradient(orange, white);
+  border-style: outset;
+}
+
+.Arrow{
+  position: relative;
+  top: 160px;
+  right: 700px; 
+}
+.Spread{
+  position: relative;
+  top: 160px;
+  right: 600px; 
+}
+.Let{
+  position: relative;
+  top: 130px;
+  right: -700px;  
+}
+.Destr{
+  position: relative;
+  top: 130px;
+  right: -800px;  
+}
+
+
+
+

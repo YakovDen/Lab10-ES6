@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>ES6</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body id="bd">
+    <div class="lin-bg">
+        <table id="letter">
+          <tr>
+            <th>№ п/п</th>
+            <th>Ф.И.О.</th>
+            <th>Email</th>
+            <th>Написать письмо</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Руденков Артём</td>
+            <td>rud@by.net</td>
+            <td onclick="getVal(this);"><i class="fa fa-envelope fa-2x"></i> </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Аникей Егор</td>
+            <td>egor@inbox.ru</td>
+            <td onclick="getVal(this);"><i class="fa fa-envelope fa-2x"></i></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Кондратенко Екатеринав</td>
+            <td>kondratenko@gmail.com</td>
+            <td onclick="getVal(this);"><i class="fa fa-envelope fa-2x"></i></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Макеев Пётр</td>
+            <td>peter@mail.ru</td>
+            <td onclick="getVal(this);"><i class="fa fa-envelope fa-2x"></i></td>
+          </tr>
+        </table>
+    </div>
+ <!-- такая форма будет сгенерирована -->
+    <!-- <fieldset id="letter-form" class="hide">
+        <h2>Отправить письмо <span id="close" title="Закрыть">&times;</span></h2>
+          <form name="send-letter" id="send-letter">
+            <p><label for="user-name">Кому</label>
+                <input type="text" id="user-name" name="user-name" value=""></p>
+            <p><label for="user-email">Email</label>
+                <input type="email" iuser-emaild="" name="user-email" value=""></p>
+            <p><label for="user-subj">Тема</label>
+                <input type="text" id="user-subj" name="user-subj" value="Важное сообщение"></p>
+            <p><label for="user-message">Сообщение</label>
+                <textarea id="user-message" name="user-message" value="" rows="5"></textarea></p>
+            <p><label for="send-btn">&nbsp;</label>
+                <input type="submit" id="send-btn" name="send-btn" value="Отправить"></p>
+          </form>
+    </fieldset> -->
+    
+        <input class="Arrow btn" type="button" value="Стрелочные функции" onclick="functionArrow()" />'; 
+        <input class="Spread btn" type="button" value="Spread" onclick="functionSpread()" />'; 
+        <input class="Let btn" type="button" value="Let and Const" onclick="functionLet()" />';
+        <input class="Destr btn" type="button" value="Destructuring" onclick="functionDestruct()" />';        
+    
+    <script src="js/eventScript.js"></script>
+    <script src="js/functionArrow.js"></script>
+    <script src="js/functionSpread.js"></script> 
+    <script src="js/functionLet.js"></script>
+    <script src="js/functionDestruct.js"></script>   
+</body>
+</html>
+
+
+  
